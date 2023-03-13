@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --fontFamily: tilliumWeb-Regular;
+  --blue: #28475c;
+}
+
+#drug {
+  height: 65vh;
+  font-family: tilliumWeb-Regular;
+  display: flex;
+}
+.blockchain {
+  flex: 1;
+  position: relative;
+  padding: 13% 0;
+}
+.block-img {
+  flex: 1;
+}
+.drug-h1 {
+  font-size: 50px;
+  width: 80%;
+  line-height: 130%;
+  color: var(--blue);
+}
+.drug-p {
+  width: 80%;
+  padding: 15px 0;
+  font-size: 21px;
+  color: #168b9c;
+}
+.drug-btn {
+  padding: 2.5% 10%;
+  background-color: #28475c;
+  border-radius: 10px;
+  border: none;
+  margin-top: 5%;
+  color: #ffffff;
+}
+.absolute-manage {
+  width: 130%;
+  height: 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: absolute;
+  bottom: 5%;
+  column-gap: 15px;
+}
+.card {
+  display: flex;
+}
+.left-side {
+  width: 40%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-side {
+  display: flex;
+  align-items: center;
+}
+.logo-h {
+  font-family: var(--fontFamily);
+  font-weight: 800;
+  font-size: 18px;
+  width: 60%;
+}
+.velik {
+  width: 100%;
+  height: 100%;
+}

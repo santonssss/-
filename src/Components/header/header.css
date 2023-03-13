@@ -1,0 +1,47 @@
+header {
+  background-color: #ffffff;
+}
+.container {
+  width: 95%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.img-logo {
+  width: 96px;
+  height: 65px;
+}
+.navbar {
+  height: 14vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.menus li {
+  margin: 0 30px;
+}
+.menus li a {
+  text-decoration: none;
+  color: #000000;
+  font-family: tilliumWeb-Regular;
+  font-weight: 600;
+  font-size: 14px;
+}
+.order {
+  padding: 10px 25px;
+  margin-left: 50px;
+  font-family: tilliumWeb-Regular;
+  font-weight: 700;
+  background-color: transparent;
+  border: 2px solid #f2c961;
+  border-radius: 10px;
+  font-size: 12px;
+}
+.menus li a:hover {
+  color: rgb(142, 142, 16);
+}

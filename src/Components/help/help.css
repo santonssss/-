@@ -1,0 +1,54 @@
+#help {
+  height: 70vh;
+
+  display: flex;
+  flex-direction: column;
+}
+.top-help {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bottom-help {
+  flex: 4;
+  background-color: red;
+}
+.help-header {
+  font-size: 42px;
+  line-height: 16px;
+  color: #168b9c;
+  font-family: tilliumWeb-700;
+  font-weight: 700;
+}
+.middle-help {
+  flex: 2;
+  background-color: rgb(11, 190, 92);
+  padding: 0 3.5%;
+}
+.help-h2 {
+  font-weight: 400;
+  padding: 1% 0;
+  font-family: tilliumWeb-Regular;
+  line-height: 30px;
+  font-size: 20px;
+  color: #000000;
+}
+.causes {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: tilliumWeb-700;
+  line-height: 36px;
+  width: 38%;
+  color: #28475c;
+}
+.causes-ul {
+  padding: 1% 1.5%;
+}
+.causes-ul .caus {
+  font-size: 14px;
+  font-family: tilliumWeb-Regular;
+  font-weight: 400;
+  color: #707070;
+}

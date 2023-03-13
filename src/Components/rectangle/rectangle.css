@@ -1,0 +1,52 @@
+#rectangle {
+  height: 70vh;
+  background-color: #f8fafb;
+  display: flex;
+  flex-direction: column;
+}
+.top-rectangle {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bottom-rectangle {
+  flex: 1;
+  display: flex;
+}
+.rectangle-header {
+  font-family: tilliumWeb-700;
+  font-size: 42px;
+  line-height: 52.75px;
+  width: 60%;
+  text-align: center;
+  color: #168b9c;
+}
+.starting-ul {
+  padding-bottom: 10px;
+}
+.rectangle-h6 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: tilliumWeb-Regular;
+  line-height: 30px;
+  padding: 10px 0;
+}
+.right-side-bottom-rectangle {
+  flex: 1;
+}
+.left-side-bottom-rectangle {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.pluses {
+  width: 60%;
+  height: 50%;
+}
+.plus {
+  margin: 10px 0;
+}
